@@ -2,7 +2,13 @@
 public class Aplicacao {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Arvore arvore = new Arvore();
+		
+		arvore.insert(1);
+		arvore.insert(2);
+		arvore.insert(3);
+		arvore.insert(4);
+		arvore.insert(5);
 
 	}
 
