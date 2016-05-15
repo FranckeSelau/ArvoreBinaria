@@ -10,7 +10,10 @@ public class Aplicacao {
 		arvore.insert(4);
 		arvore.insert(5);
 
+<<<<<<< HEAD
 		arvore.print();
+=======
+>>>>>>> f9671d5abd67cfeb2b78662c8e422ecf439f6c33
 	}
 
 }
