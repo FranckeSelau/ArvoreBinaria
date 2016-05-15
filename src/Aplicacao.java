@@ -10,6 +10,7 @@ public class Aplicacao {
 		arvore.insert(4);
 		arvore.insert(5);
 
+		arvore.print();
 	}
 
 }
