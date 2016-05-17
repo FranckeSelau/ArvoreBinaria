@@ -9,7 +9,8 @@ public class Aplicacao {
 		arvore.insert(3);
 		arvore.insert(4);
 		arvore.insert(5);
-
+		arvore.insert(9);
+		arvore.insert(7);
 		arvore.print();
 	}
 

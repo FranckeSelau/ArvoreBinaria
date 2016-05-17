@@ -19,7 +19,11 @@ public class Node {
 		else if (direita == null)
 			direita = new Node(valor);
 		else
-			esquerda.insert(valor);
+			if (esquerda.valor > direita.valor) {
+				esquerda.insert(valor);
+			} else {
+				direita.insert(valor);
+			}
 	}
 	
 	public void print() {
